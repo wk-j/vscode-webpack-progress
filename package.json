@@ -1,6 +1,6 @@
 {
     "name": "webpack-progress",
-    "displayName": "webpack-progress",
+    "displayName": "Webpack progress",
     "description": "Show build progress in status bar",
     "version": "0.0.1",
     "publisher": "wk-j",

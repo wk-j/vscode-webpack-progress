@@ -11,15 +11,16 @@ export function activate(context: vscode.ExtensionContext) {
 
     let progress = new WebpackProgress();
     let watcher = new ProgressWatcher();
+    
     watcher.initializeWacher();
-    watcher.event.on("progressChange", (percentage) => {
+    watcher.on("progressChange", (percentage) => {
         console.log(percentage);
         progress.updateProgress(percentage);
     });
     
     context.subscriptions.push(progress);
+    context.subscriptions.push(progress);
 }
 
-// this method is called when your extension is deactivated
 export function deactivate() {
 }
