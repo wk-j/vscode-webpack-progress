@@ -14,7 +14,6 @@ export function activate(context: vscode.ExtensionContext) {
     
     watcher.initializeWacher();
     watcher.on("progressChange", (percentage) => {
-        console.log(percentage);
         progress.updateProgress(percentage);
     });
     
