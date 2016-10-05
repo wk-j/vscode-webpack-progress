@@ -6,7 +6,7 @@ import * as os from "os";
 export class ProgressWatcher extends EventEmitter {
     timer: NodeJS.Timer;
     initializeWacher() {
-        let tempFile = `/tmp/webpack-progress`;
+        let tempFile = `${os.tmpdir()}/webpack-progress`;
         let lastModify = new Date(200,10,10);
         this.timer = setInterval(() => {
             fs.stat(tempFile, (err, state) => {

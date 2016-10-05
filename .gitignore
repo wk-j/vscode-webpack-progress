@@ -1,2 +1,5 @@
 out
 node_modules
+tools
+build.cmd
+build.ps1
