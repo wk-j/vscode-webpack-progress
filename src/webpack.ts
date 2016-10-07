@@ -32,7 +32,6 @@ export class WebpackProgress {
          if(!this.statusBarItem) {
              this.statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right);
              this.statusBarItem.text = "Webpack 0%";
-             this.statusBarItem.color = "mistyrose"
              this.statusBarItem.show();
          }
          this.statusBarItem.text = `Webpack ${percentage}%`;

@@ -1,8 +1,8 @@
 #addin "nuget:?package=Cake.SquareLogo"
 
-Task("Logo").Does(() =>{
+Task("Icon").Does(() =>{
     CreateLogo("Webpack", "images/icon.png", new LogoSettings {
-        Background = "DarkSlateBlue",
+        Background = "Green",
         Foreground = "White",
         Padding = 30
     });

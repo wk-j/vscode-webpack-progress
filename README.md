@@ -1,6 +1,6 @@
 ## Webpack Progress
 
-Show webpack build progress in VS Code status bar.
+Show webpack build progress in Visual Studio Code status bar.
 
 ![](images/progress.png)
 
@@ -10,4 +10,6 @@ Show webpack build progress in VS Code status bar.
 
 ## Install
 
-> ext install webpack-progress
+- <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>
+- Type: `ext install webpack-progress`
+- Press <kbd>Enter</kbd>
