@@ -1,12 +1,12 @@
 {
     "name": "webpack-progress",
     "displayName": "Webpack Progress",
-    "description": "Show webpack build progress in Visual Studio Code status bar",
+    "description": "Display Webpack build progress in VS Code Status Bar",
     "repository": {
         "type": "git",
         "url": "https://github.com/wk-j/vscode-webpack-progress"
     },
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "wk-j",
     "engines": {
         "vscode": "^1.5.0"
