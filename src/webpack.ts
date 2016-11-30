@@ -44,7 +44,7 @@ export class WebpackProgress {
      }
 
     resetProgress() {
-        this.statusBarItem.text = `${this.statusLabel} √`;
+        this.statusBarItem.text = `${this.statusLabel} ✓`;
         clearTimeout(this.resetTimout);
         this.resetTimout = setTimeout(() => this.statusBarItem.text = this.statusLabel, 5000);
     }
